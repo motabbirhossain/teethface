@@ -1,0 +1,38 @@
+/* ----------------------------------
+	Call To Action Section Styles
+ ------------------------------------ */
+.cta_wrapper{
+	background-color: $section-bg;
+	&.cta_wrapper_3{
+		h4{
+			color: #000;
+			font-weight: 500;
+			margin-bottom: 30px;
+		}
+		h2{
+			margin-bottom: 30px;
+		}
+	}
+	&.cta_wrapper_4{
+		h4{
+			color: #000;
+			font-weight: 500;
+			margin-bottom: 30px;
+			max-width: 750px;
+			margin: 0 auto;
+		}
+		h2{
+			margin-bottom: 30px;
+		}
+	}
+}
+.cta_wrapper_2{
+	.section-title{
+		p{
+			max-width: 650px;
+			margin: 0 auto;
+			font-size: 18px;
+			line-height: 30px;
+		}
+	}
+}

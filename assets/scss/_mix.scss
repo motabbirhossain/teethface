@@ -1,0 +1,137 @@
+.scetion-padding{
+    padding: 100px 0px;
+    @media (max-width: 1080px) {
+        padding: 100px 0px;
+    }
+    @media (max-width: 990px) {
+        padding: 80px 0px;
+    }
+    @media (max-width: 768px) {
+        padding: 50px 0px;
+    }
+}
+.scetion_top{
+    padding-top: 100px;
+    @media (max-width: 1080px) {
+        padding-top: 100px;
+    }
+    @media (max-width: 990px) {
+        padding-top: 80px;
+    }
+    @media (max-width: 768px) {
+        padding-top: 50px;
+    }
+}
+.scetion_bottom{
+    padding-bottom: 100px;
+    @media (max-width: 1080px) {
+        padding-bottom: 100px;
+    }
+    @media (max-width: 990px) {
+        padding-bottom: 80px;
+    }
+    @media (max-width: 768px) {
+        padding-bottom: 50px;
+    }
+}
+
+.img_routet{
+    img{
+        animation: 8s linear 0s infinite routet ;
+    }
+}
+.content{
+    &.content_2{
+        h3{
+            max-width: 800px;
+            height: auto;
+            margin: 0 auto;
+            line-height: 45px;
+            font-weight: 400;
+            color: $theme-color;
+            margin-bottom: 40px;
+        }
+        h2{
+            font-weight: 400;
+            color: $theme-color;
+        }
+    }
+    h1{
+        color: #000000;
+        line-height: 66px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    p{
+        max-width: 769px;
+        height: auto;
+        margin: 0 auto;
+        font-size: 24px;
+        line-height: 31px;
+        font-weight: 400;
+    }
+}
+.section-title{
+    h2{
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 66px;
+        color: $theme-color;
+        margin-bottom: 30px;
+    }
+    h3{
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 44px;
+        color: $theme-color;
+        margin-bottom: 30px;
+    }
+}
+.content_wrapper_2{
+    background-color: $second-color;
+    padding: 80px 0px;
+    @media (max-width: 1080px) {
+        padding: 80px 0px;
+    }
+    @media (max-width: 768px) {
+        padding: 50px 0px;
+    }
+}
+.second-bg{
+    background-color: $second-color !important;
+}
+
+.head_img{
+    width: auto;
+    height: 600px;
+    max-height:100% ;
+    overflow: hidden;
+
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.top_card{
+    background-color: $gray;
+    border-radius: 6px;
+    padding:18px 25px 25px 25px;
+    .logo{
+        img{
+            width: 150px;
+            height: auto;
+        }
+    }
+    h4{
+        color: $black;
+        margin-right: 5px;
+    }
+    i{
+        color: $theme-dark;
+    }
+    small{
+        color: $textcolor;
+        margin-left: 5px;
+    }
+}

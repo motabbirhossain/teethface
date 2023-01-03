@@ -1,0 +1,94 @@
+.contact_form_wrapper{
+    .section-title{
+        h1{
+            font-size: 52px;
+            font-weight: 400;
+            line-height: 65px;
+            color: $theme-color;
+            margin-bottom: 20px;
+            @media (max-width:768px) {
+                font-size: 42px;
+                font-weight: 400;
+                line-height: 55px;
+            }
+        }
+        p{
+            font-size: 24px;
+        }
+
+    }
+    .contact_form{
+        &.contact_form_2{
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        max-width: 800px;
+        margin: 0 auto;
+        h2{
+            font-size: 30px;
+            color: #000;
+            font-weight: 600;
+            letter-spacing: normal;
+            margin-bottom: 20px;
+        }
+        .form-group{
+            margin: 10px 0px;
+
+        }
+        input{
+            height: 50px;
+            margin-top: 10px;
+        }
+        label{
+            font-size: 18px !important;
+            font-weight: 500;
+            color: #000;
+        }
+        h4{
+            color: #000;
+            font-weight: 500;
+            margin-right: 15px;
+        }
+        select{
+            border: 1px solid $textcolor;
+            padding: 0px 30px;
+            border-radius: 6px;
+            height: 50px;
+        }
+        .uplode_widget{
+           margin: 30px 0px;
+        }
+    }
+}
+
+.working_widget-time{
+    ul{
+        margin: 20px 0px;
+        >li{
+            font-size: 18px;
+            line-height: 23px;
+            color: #000;
+            font-weight: 600;
+            
+            >a{
+                color: $theme-color;
+                font-size: 18px;
+                line-height: 23px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+.icon_links{
+    >li{
+        display: inline-block !important;
+        a{
+            margin: 0px 5px;
+            
+            i{
+                font-size: 22px;
+                font-weight: 600;
+            }
+        }
+    }
+}

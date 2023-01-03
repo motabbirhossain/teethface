@@ -1,0 +1,42 @@
+/* ----------------------------------
+	About Us Section Styles
+ ------------------------------------ */
+.about_wrapper{
+	background-color: $section-bg;
+	.about_img{
+		height: 450px;
+		width: 100%;
+		overflow: hidden;
+		img{
+			height: 100%;
+			width: 100%;
+		}
+	}
+	.about_content{
+		&.about_content_2{
+			p{
+				font-size: 25px;
+				line-height: 39px;
+				font-weight: 400;
+				margin-bottom: 30px;
+				color: $theme-color;
+			}
+			span{
+				font-size: 18px;
+				color: $black;
+				font-weight: 500;
+			}
+		}
+		h3{
+			color: $theme-color;
+			font-weight: 500;
+			margin-bottom: 30px;
+		}
+		p{
+			font-size: 24px;
+			line-height: 31px;
+			font-weight: 400;
+			margin-bottom: 30px;
+		}
+	}
+}

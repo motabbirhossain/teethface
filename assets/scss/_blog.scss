@@ -1,0 +1,125 @@
+.work_wrapper{
+    background-color: $section-bg;
+    .work_widget{
+        .icon{
+            height: auto;
+            overflow: hidden;
+            width: 120px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .content{
+            h4{
+                
+                color: $black;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 18px;
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+.single_card_man{
+    .single_card_img{
+        height: 335px;
+        width: auto;
+        overflow: hidden;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    h3{
+        color: #000000;
+        font-weight: 500;
+        margin: 30px 0px 5px 0px;
+    }
+}
+
+.card_wrapper{
+    .work_widget{
+        .icon{
+            height: 150px;
+            overflow: hidden;
+            width: auto;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .content{
+            h3{
+                color: $theme-color;
+                font-weight: 500;
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+            
+        }
+    }
+}
+
+.single_card_item{
+    padding: 25px;
+    background-color: $gray;
+    border-radius: 6px;
+    .author_img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    .author_content{
+        h4{
+            color: #000000;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+        i{
+            color: $theme-dark;
+            font-size: 14px;
+        }
+        small{
+            color: $textcolor;
+            margin-left: 7px;
+            font-size: 12px;
+        }
+    }
+    p{
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        color: $black;
+    }
+}
+
+.single_inst{
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    .icon{
+        position: absolute;
+        top: calc(100% - 55%);
+        left: calc(100% - 50%);
+        i{
+            color: $white;
+            font-size: 22px;
+        }
+    }
+}

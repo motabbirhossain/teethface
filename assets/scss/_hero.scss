@@ -1,0 +1,59 @@
+.banner_wrapper{
+    width: 100%;
+    padding: 180px 0px;
+    @media (max-width: 1190px) {
+        padding: 150px 0px;
+    }
+    @media (max-width: 1080px) {
+        padding: 120px 0px;
+    }
+    @media (max-width: 990px) {
+        padding: 100px 0px;
+    }
+    @media (max-width: 768px) {
+        padding: 80px 0px;
+    }
+    @include overlay(#000000 , 0.40);
+    .banner_title{
+        &.banner_title_2{
+            max-width: 100%;
+            h3{
+                font-size: 35px;
+                line-height: 50px;
+                color: $white;
+                font-weight: 400;
+                margin-bottom: 20px;
+                @media (max-width: 768px) {
+                    font-size: 35px;
+                    line-height: 50px;
+                }
+            }
+        }
+        max-width: 768px;
+        h1{
+            font-size: 65px;
+            line-height: 80px;
+            color: $white;
+            font-weight: 400;
+            margin-bottom: 20px;
+            @media (max-width: 768px) {
+                font-size: 50px;
+                line-height: 60px;
+            }
+        }
+        h4{
+            color: $white;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        .theme-btn{
+            background-color: $white;
+            color: $black;
+            font-weight: 500;
+            &:hover{
+                color: $white;
+                background-color: $black;
+            }
+        }
+    }
+}
