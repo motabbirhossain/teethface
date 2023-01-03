@@ -129,5 +129,31 @@ Author: RRDevs
 			}
 		}
 	})
+	$('.teeth_widget').owlCarousel({
+		loop: true,
+		autoplay:true,
+		autoplayTimeout:3000,
+		autoplayHoverPause:true,
+		margin:10,
+		nav: true,
+		navText: ['<i class="far fa-angle-left"></i>', '<i class="far fa-angle-right"></i>'],
+		responsive:{
+			0:{
+				items:1
+			},
+			500:{
+				items:1
+			},
+			700:{
+				items:2
+			},
+			1000:{
+				items:3
+			},
+			1400:{
+				items:4
+			}
+		}
+	})
 
 })(jQuery); // End jQuery
