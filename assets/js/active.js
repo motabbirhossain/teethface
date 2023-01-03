@@ -6,37 +6,16 @@ Author: RRDevs
 (function($) {
     "use strict";
 
-    $(document).ready( function() {
-
-        // /*** Sticky header */
-        // $(window).scroll(function(){
-        //     if($("body").scrollTop() > 0 || $("html").scrollTop() > 0) {
-        //         $("header").addClass("stop");
-        //     } else {
-        //         $("header").removeClass("stop");
-        //     }
-		// });
-		// $(window).scroll(function(){
-        //     if($("body").scrollTop() > 0 || $("html").scrollTop() > 0) {
-        //         $("header").addClass("stop");
-        //     } else {
-        //         $("header").removeClass("stop");
-        //     }
-		// });
-		// $(function(){
-		// 	$('#topbar').scrollupbar();
-		// });
+	$(document).ready(function () {
 			
 		
         /*** mobile menu  */
 		$("#hamburger").on("click", function () {
 			$(".mobile-nav").addClass("show");
-			$(".offcanvas-overlay").addClass("overlay-open");
 		});
 
         $(".close-nav").on("click", function () {
 			$(".mobile-nav").removeClass("show");
-			$(".offcanvas-overlay").removeClass("overlay-open");
 		});
 
 		$(window).scroll(function(){

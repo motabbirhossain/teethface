@@ -1,14 +1,11 @@
 .footer-wrap{
     background-color: $theme-color;
-    padding-top: 100px;
-    @media (max-width: 1080px) {
-        padding-top: 100px;
-    }
+    padding-top: 70px;
     @media (max-width: 990px) {
-        padding-top: 80px;
+        padding-top: 70px;
     }
     @media (max-width: 768px) {
-        padding-top: 50px;
+        padding-top: 30px;
     }
     hr{
         height: 2px;

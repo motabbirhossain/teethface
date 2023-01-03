@@ -26,7 +26,13 @@ $second-color-dark: #000b2c;
     -o-transition: all $transition ease-in-out;
     transition: all $transition ease-in-out;
 }
-
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    -o-transform: $transform;
+    transform: $transform;
+}
 @mixin overlay($color, $opacity) {
     z-index: 1;
     position: relative;
