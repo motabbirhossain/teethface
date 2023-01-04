@@ -532,6 +532,12 @@ p {
   left: 0%;
 }
 
+.logo_widget img {
+  width: 400px;
+  height: auto;
+  max-width: 100%;
+}
+
 /* ----------------------------------
     Template Helps Classes - Styles
  ------------------------------------ */
@@ -1008,7 +1014,7 @@ section {
 
 .theme-btn {
   color: #FFF;
-  padding: 15px 30px;
+  padding: 15px 25px;
   border-radius: 50px;
   font-size: 15px;
   background-color: #446A78;
@@ -1122,19 +1128,19 @@ header {
   left: 0%;
   width: 100%;
   z-index: 9999;
-  padding: 0px 50px;
+  padding: 5px 50px;
   position: fixed;
   background-color: #fff;
   border-bottom: 1px solid #000;
 }
 @media (max-width: 996px) {
   header {
-    padding: 0px 30px;
+    padding: 5px 30px;
   }
 }
 @media (max-width: 768px) {
   header {
-    padding: 0px 15px;
+    padding: 5px 15px;
   }
 }
 header .logo {
@@ -1150,7 +1156,7 @@ header .main-menu ul {
 header .main-menu ul > li {
   display: inline-block;
   line-height: 1;
-  padding: 15px 20px;
+  padding: 10px 15px;
 }
 @media (max-width: 1210px) {
   header .main-menu ul > li {
@@ -1161,7 +1167,7 @@ header .main-menu ul > li > a {
   padding: 5px 0px;
   position: relative;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   text-transform: capitalize;
   line-height: 1;
   overflow: hidden;
@@ -1373,7 +1379,7 @@ header .main-menu ul > li .active::after {
 
 .banner_wrapper {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 75px);
   background-position: top left;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1386,6 +1392,10 @@ header .main-menu ul > li .active::after {
           align-items: center;
   z-index: 1;
   position: relative;
+}
+.banner_wrapper.banner_wrapper_2::before {
+  opacity: 0 !important;
+  visibility: hidden !important;
 }
 .banner_wrapper:before {
   top: 0;
@@ -1417,6 +1427,17 @@ header .main-menu ul > li .active::after {
     font-size: 35px;
     line-height: 50px;
   }
+}
+.banner_wrapper .banner_title.banner_title_3 {
+  max-width: 768px;
+  margin-left: auto !important;
+}
+.banner_wrapper .banner_title.banner_title_3 h3 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFF;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 .banner_wrapper .banner_title h1 {
   font-size: 65px;
